@@ -3,7 +3,7 @@ docker run -it  --entrypoint=bash python:3.12.8
 
 pip --version
 
-Answer: pip 24.3.1 from /usr/local/lib/python3.12/site-packages/pip (python 3.12)
+> Answer: pip 24.3.1 from /usr/local/lib/python3.12/site-packages/pip (python 3.12)
 
 # Question 2. Understanding Docker networking and docker-compose
 docker compose up -d
@@ -27,9 +27,13 @@ group by 1;
 ```
 
 > "Up to 1 mile"	104838
+
 > "In between 1 (exclusive) and 3 miles (inclusive)"	199013
+
 > "In between 3 (exclusive) and 7 miles (inclusive)"	109645
+
 > "In between 7 (exclusive) and 10 miles (inclusive)"	27688
+
 > "Over 10 miles"	35202
 
 # Question 4. Longest trip for each day
@@ -50,7 +54,9 @@ group by b."Zone"
 having sum(total_amount) > 13000;
 ```
 > "East Harlem North"
+
 > "East Harlem South"
+
 > "Morningside Heights"
 
 # Question 6. Largest tip
